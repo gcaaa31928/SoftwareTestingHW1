@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ac6bd07-3e56-4a43-afac-f53ed65ce2e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/RangeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CSVTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HW#1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,14 +25,24 @@
     <favorites_list name="HW#1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.22681068">
+    <splitter split-orientation="horizontal" split-proportion="0.4123253">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Range.class" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Range.class" pinned="false" current-in-tab="false">
             <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/Range.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65457684">
+                <state vertical-scroll-proportion="-6.534483">
                   <caret line="158" column="35" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CSV.class" pinned="false" current-in-tab="true">
+            <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/io/CSV.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.5544041">
+                  <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -45,7 +56,7 @@
             <entry file="file://$PROJECT_DIR$/test/DataUtilitiesTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#testNotEqualDataForMethodEqual#0;class#DataUtilitiesTest#0" expanded="false" />
@@ -58,14 +69,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RangeTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="RangeTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/RangeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.56828886">
-                  <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CSVTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/CSVTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7645212">
+                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#421#422#0" expanded="true" />
+                    <element signature="e#460#461#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CategoryDataset.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/category/CategoryDataset.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.357143">
+                  <caret line="10" column="32" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -137,8 +172,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/hw1.java" />
         <option value="$PROJECT_DIR$/test/HW1Test.java" />
-        <option value="$PROJECT_DIR$/test/DataUtilitiesTest.java" />
         <option value="$PROJECT_DIR$/test/RangeTest.java" />
+        <option value="$PROJECT_DIR$/test/DataUtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/test/CSVTest.java" />
       </list>
     </option>
   </component>
@@ -382,49 +418,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jfreechart-1.0.19/lib" />
     <property name="SearchEverywhereHistoryKey" value="datautilit&#9;PSI&#9;JAVA://org.jfree.data.DataUtilities" />
   </component>
-  <component name="RunManager" selected="JUnit.RangeTest.testCrossRangeForMethodExpand">
-    <configuration default="false" name="RangeTest.testNoneWorkedCombineForMethodCombine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="HW#1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RangeTest" />
-      <option name="METHOD_NAME" value="testNoneWorkedCombineForMethodCombine" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RangeTest.testNegativeRangeForMethodExpand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="HW#1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RangeTest" />
-      <option name="METHOD_NAME" value="testNegativeRangeForMethodExpand" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CSVTest.testPositiveDataForMethodReadCategoryDataset">
     <configuration default="false" name="RangeTest.testPositiveRangeForMethodExpand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HW#1" />
@@ -475,6 +469,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RangeTest" />
       <option name="METHOD_NAME" value="testCrossRangeForMethodExpand" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CSVTest.testNullDataForMethodReadCategoryDataset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="HW#1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CSVTest" />
+      <option name="METHOD_NAME" value="testNullDataForMethodReadCategoryDataset" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CSVTest.testPositiveDataForMethodReadCategoryDataset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="HW#1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CSVTest" />
+      <option name="METHOD_NAME" value="testPositiveDataForMethodReadCategoryDataset" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -889,19 +925,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RangeTest.testNoneWorkedCombineForMethodCombine" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RangeTest.testNegativeRangeForMethodExpand" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RangeTest.testPositiveRangeForMethodExpand" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RangeTest.testSameRangeForMethodToString" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RangeTest.testCrossRangeForMethodExpand" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RangeTest.testPositiveRangeForMethodExpand" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RangeTest.testSameRangeForMethodToString" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RangeTest.testCrossRangeForMethodExpand" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CSVTest.testNullDataForMethodReadCategoryDataset" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CSVTest.testPositiveDataForMethodReadCategoryDataset" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RangeTest.testCrossRangeForMethodExpand" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RangeTest.testSameRangeForMethodToString" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RangeTest.testPositiveRangeForMethodExpand" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RangeTest.testNegativeRangeForMethodExpand" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RangeTest.testNoneWorkedCombineForMethodCombine" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CSVTest.testPositiveDataForMethodReadCategoryDataset" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CSVTest.testNullDataForMethodReadCategoryDataset" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RangeTest.testCrossRangeForMethodExpand" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RangeTest.testSameRangeForMethodToString" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RangeTest.testPositiveRangeForMethodExpand" />
       </list>
     </recent_temporary>
   </component>
@@ -917,44 +953,44 @@
       <updated>1458478126304</updated>
       <workItem from="1458478129354" duration="578000" />
       <workItem from="1458478730456" duration="794000" />
-      <workItem from="1458479541802" duration="9470000" />
+      <workItem from="1458479541802" duration="11480000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RangeTest_testCrossRangeForMethodExpand - 2016.03.21 at 01h 09m 00s.xml">
-      <configuration name="RangeTest.testCrossRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 30m 26s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testCrossRangeForMethodExpand - 2016.03.21 at 01h 09m 11s.xml">
-      <configuration name="RangeTest.testCrossRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 31m 54s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testPositiveRangeForMethodExpand - 2016.03.21 at 01h 03m 00s.xml">
-      <configuration name="RangeTest.testPositiveRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 31m 57s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testPositiveRangeForMethodExpand - 2016.03.21 at 01h 03m 12s.xml">
-      <configuration name="RangeTest.testPositiveRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 32m 18s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testPositiveRangeForMethodExpand - 2016.03.21 at 01h 03m 17s.xml">
-      <configuration name="RangeTest.testPositiveRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 32m 29s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testPositiveRangeForMethodExpand - 2016.03.21 at 01h 03m 23s.xml">
-      <configuration name="RangeTest.testPositiveRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 38m 37s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testPositiveRangeForMethodExpand - 2016.03.21 at 01h 03m 27s.xml">
-      <configuration name="RangeTest.testPositiveRangeForMethodExpand" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 40m 39s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testSameRangeForMethodToString - 2016.03.21 at 01h 07m 51s.xml">
-      <configuration name="RangeTest.testSameRangeForMethodToString" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 40m 51s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testSameRangeForMethodToString - 2016.03.21 at 01h 08m 20s.xml">
-      <configuration name="RangeTest.testSameRangeForMethodToString" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 41m 12s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeTest_testSameRangeForMethodToString - 2016.03.21 at 01h 08m 29s.xml">
-      <configuration name="RangeTest.testSameRangeForMethodToString" configurationId="JUnit" />
+    <history-entry file="CSVTest_testPositiveDataForMethodReadCategoryDataset - 2016.03.21 at 01h 41m 56s.xml">
+      <configuration name="CSVTest.testPositiveDataForMethodReadCategoryDataset" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10842000" />
+    <option name="totallyTimeSpent" value="12852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
@@ -967,7 +1003,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28617364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21283354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1173,14 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/DefaultKeyedValues.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/DataUtilities.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2413793">
@@ -1191,10 +1219,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/io/CSV.class">
+    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/Range.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state vertical-scroll-proportion="-6.534483">
+          <caret line="158" column="35" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/DefaultKeyedValues.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1202,7 +1238,7 @@
     <entry file="file://$PROJECT_DIR$/test/DataUtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testNotEqualDataForMethodEqual#0;class#DataUtilitiesTest#0" expanded="false" />
@@ -1214,20 +1250,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/Range.class">
+    <entry file="file://$PROJECT_DIR$/test/RangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65457684">
-          <caret line="158" column="35" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/category/CategoryDataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.357143">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RangeTest.java">
+    <entry file="jar://$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/org/jfree/data/io/CSV.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56828886">
-          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        <state vertical-scroll-proportion="1.5544041">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CSVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7645212">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
