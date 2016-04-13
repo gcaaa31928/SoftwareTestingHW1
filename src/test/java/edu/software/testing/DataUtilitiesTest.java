@@ -68,7 +68,7 @@ public class DataUtilitiesTest {
         DefaultKeyedValues2D a = new DefaultKeyedValues2D();
         a.setValue(1, 0, 0);
         a.setValue(1, 0, 1);
-        assertEquals(2.0, DataUtilities.calculateRowTotal(a, 0), 0);
+        assertEquals(1.0, DataUtilities.calculateRowTotal(a, 0), 0);
     }
 
     @Test
