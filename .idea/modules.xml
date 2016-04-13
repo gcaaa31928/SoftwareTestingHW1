@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/softwrare-testing.iml" filepath="$PROJECT_DIR$/softwrare-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfreechart.iml" filepath="$PROJECT_DIR$/jfreechart.iml" />
     </modules>
   </component>
 </project>
