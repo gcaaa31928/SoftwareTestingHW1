@@ -6,3 +6,9 @@ Just homework
 
 
 [![Coverage Status](https://coveralls.io/repos/github/gcaaa31928/SoftwareTestingHW1/badge.svg?branch=master)](https://coveralls.io/github/gcaaa31928/SoftwareTestingHW1?branch=master)
+
+
+``` bash
+mvn cobertura:cobertura
+
+```
